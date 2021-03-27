@@ -4,7 +4,7 @@
 #
 # This code may be distributed under the terms of the BSD license.
 # See LICENSE for more details.
-
+	
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
@@ -152,7 +152,7 @@ def argv_get_interface():
 
 if __name__ == "__main__":
 	if len(sys.argv) <= 1 or "--help" in sys.argv or "-h" in sys.argv:
-		print "See README.md for instructions on how to use this script"
+		print ("See README.md for instructions on how to use this script")
 		quit(1)
 
 	# TODO: Verify that we only accept CCMP?

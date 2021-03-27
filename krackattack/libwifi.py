@@ -3,7 +3,7 @@
 # This code may be distributed under the terms of the BSD license.
 # See README for more details.
 from scapy.all import *
-from Cryptodome.Cipher import AES
+from Crypto.Cipher import AES
 from datetime import datetime
 
 #### Basic output and logging functionality ####
