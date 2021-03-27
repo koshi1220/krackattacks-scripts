@@ -80,6 +80,8 @@ class ClientState():
 
 		self.broadcast_reset()
 
+# thisisnotgood
+
 	def broadcast_reset(self):
 		self.broadcast_state = ClientState.IDLE
 		self.broadcast_prev_canary_time = 0
